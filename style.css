@@ -470,5 +470,28 @@ button:hover{
   text-decoration: underline;
 }
 
+.sandwich {
+  display: none;
+}
+
+
+@media(max-width: 1400px) {
+  .cards-container {
+  grid-template-columns: 1fr 1fr;
+  }
+  .sandwich {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media(max-width: 700px) {
+  .cards-container {
+  grid-template-columns: 1fr;
+  }
+}
 
 
